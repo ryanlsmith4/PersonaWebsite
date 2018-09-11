@@ -1,0 +1,26 @@
+/* style.css */
+.portrait {
+
+}
+
+.container {
+    box-sizing: border-box;
+    margin: left;
+    text-align: justify;
+}
+.text{
+    font-family: roboto;
+}
+.portrait-container{
+    padding-top: 4em;
+}
+#nav-bar ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar li {
+  display: inline-block;
+}
