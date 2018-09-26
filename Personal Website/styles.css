@@ -6,7 +6,6 @@ body{
     color: white;
     grid-area: content;
     margin-top: 6em;
-
 }
 .main-head {
     color: white;
@@ -104,7 +103,7 @@ font-weight: 800;
     grid-template-areas:
         /* "header  header" */
         "nav     nav    nav "
-        "sidebar content content  "
+        "sidebar content .  "
         ".      .         . "
         "ad    footer   footer";
 
@@ -126,7 +125,7 @@ font-weight: 800;
     grid-template-areas:
         /* "header  header" */
         "nav     nav    nav "
-        "sidebar content .  "
+        "sidebar content  . "
         ".      .         . "
         "ad    footer   footer";
 }
