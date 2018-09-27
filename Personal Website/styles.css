@@ -1,7 +1,9 @@
-body, html{
+body, html {
     height: 100%;
-    margin:0 auto;
+    width: 100%;
+    margin: auto;
 }
+
 .about-content {
     color: white;
     grid-area: content;
@@ -12,12 +14,22 @@ body, html{
     color: white;
     grid-area: header;
 }
+
 .welcome {
+    font-size: 4em;
     margin-right: 200px;
+    font-family: cursive;
 }
+
+.medium {
+    font-size: 3em;
+    font-family: cursive;
+}
+
 .p-text {
     margin-right: 200px;
     margin-top: 15px;
+    line-height: 1.6;
 }
 
 .content {
@@ -25,26 +37,20 @@ body, html{
     grid-area: content;
 }
 
-}
-img:hover {
+
+/* img:hover {
     transform: scale(1.1) rotate(45deg) translateX(10px);
-}
-img {
-    overflow: hidden;
-    height: 300px;
-    width: auto;
-    border-radius: 50%;
-    position: relative;
-     left: -40px;
-}
-/* .picture {
-    overflow: hidden;
-    height: 300px;
-    width: auto;
-    border-radius: 50%;
-    position: relative;
-    left: -40px;
 } */
+.linked:hover {
+    transform: scale(1.1) rotate(35deg) translateX(10px);
+}
+.linked {
+    border-radius:50%;
+    width:50px ;
+    height:50px;
+    box-shadow:10px 5px 5px red;
+    overflow: hidden;
+}
 .git-hub-logo {
     border-radius:50%;
     width:50px ;
@@ -52,15 +58,19 @@ img {
     box-shadow:10px 5px 5px red;
     overflow: hidden;
 }
+
 .git-hub-logo:hover{
     transform: scale(1.1) rotate(35deg) translateX(10px);
 }
+
 .turqouise:hover {
-    transform: scale(1.1) rotate(-35deg) translateX(10px);
+    transform: scale(1.1) rotate(35deg) translateX(10px);
 }
+
 .turqouise {
 box-shadow: 10px 5px 5px red;
 margin-right: 10px;
+height: 30px;
 width: 100px;
 background: #1abc9c;
 border-bottom: #16a085 3px solid;
@@ -73,9 +83,20 @@ padding: 10px;
 float: left;
 font-size: 12px;
 font-weight: 800;
+
 }
+
 .about {
     grid-area: sidebar;
+    font-family: cursive;
+    font-size: 3em;
+    line-height: 1.6;
+}
+
+.hobbies {
+    font-family: cursive;
+    font-size: 3em;
+    line-height: 1.6;
 }
 
 .nav-color {
@@ -85,14 +106,40 @@ font-weight: 800;
 }
 
 .side {
+    /* grid-area: sidebar;
     margin-left: 100;
-    grid-area: sidebar;
+    overflow: hidden;
+    height: 300px;
+    width: auto;
+    border-radius: 50%; */
+    position: relative;
+    left: -40px;
 }
 
-.ad {
+img {
+    /* overflow: hidden;
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    position: relative;
+    left: -40px; */
+}
+
+.picture {
+    overflow: hidden;
+    height: 400px;
+    /* width: 400; */
+    border-radius:20%;
+    position: relative;
+
+}
+
+.ad,a {
     grid-area: ad;
     color: white;
+    line-height: 1.6;
 }
+
 .article {
     color: white;
 }
@@ -100,6 +147,7 @@ font-weight: 800;
 .main-footer {
     grid-area: ad;
 }
+
 .wrapper2 {
     color: white;
     background: linear-gradient(rgba(0, 0, 100, .3), rgba(0, 0, 0, .3)), url('https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?cs=srgb&dl=access-blur-business-1181271.jpg&fm=jpg') no-repeat center center fixed;
@@ -140,10 +188,10 @@ font-weight: 800;
         "nav     nav    nav "
         "sidebar content  . "
         ".      .         . "
-        "ad    footer   footer";
+        "footer    ad  ad ";
 }
 
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
