@@ -5,7 +5,7 @@ body, html{
 .about-content {
     color: white;
     grid-area: content;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 .main-head {
@@ -24,26 +24,35 @@ body, html{
     padding-left: 3em;
     grid-area: content;
 }
-.portrait-img {
-    width: auto;
-    height: 3040px;
-    border-radius:50%;
-    overflow:hidden;
-}
-.potrait:hover {
-    transform: scale(1.1) rotate(5deg) translateX(10px);
-}
 
-.portrait {
+}
+img:hover {
+    transform: scale(1.1) rotate(45deg) translateX(10px);
+}
+img {
+    overflow: hidden;
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    position: relative;
+     left: -40px;
+}
+/* .picture {
+    overflow: hidden;
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
     position: relative;
     left: -40px;
-}
-.git-hub {
-    border-radius:60%;
+} */
+.git-hub-logo {
+    border-radius:50%;
+    width:50px ;
+    height:50px;
     box-shadow:10px 5px 5px red;
     overflow: hidden;
 }
-.git-hub:hover{
+.git-hub-logo:hover{
     transform: scale(1.1) rotate(35deg) translateX(10px);
 }
 .turqouise:hover {
