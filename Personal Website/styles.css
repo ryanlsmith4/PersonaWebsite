@@ -61,7 +61,7 @@ body, html {
 }
 
 .git-hub-logo:hover{
-    transform: scale(1.1) rotate(35deg) translateX(10px);
+    transform: scale(1.1) rotate(35deg) translateY(10px);
 }
 
 .turqouise:hover {
