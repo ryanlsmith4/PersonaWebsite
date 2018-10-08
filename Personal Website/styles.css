@@ -49,14 +49,14 @@ body, html {
     border-radius:50%;
     width:50px ;
     height:50px;
-    box-shadow:10px 5px 5px red;
+    box-shadow:10px 5px 5px	#228B22;
     overflow: hidden;
 }
 .git-hub-logo {
     border-radius:50%;
     width:50px ;
     height:50px;
-    box-shadow:10px 5px 5px red;
+    box-shadow:10px 5px 5px #228B22;
     overflow: hidden;
 }
 
@@ -69,7 +69,7 @@ body, html {
 }
 
 .turqouise {
-box-shadow: 10px 5px 5px red;
+box-shadow: 10px 5px 5px #228B22;
 margin-right: 10px;
 height: 30px;
 width: 100px;
@@ -114,7 +114,7 @@ font-weight: 800;
     width: auto;
     border-radius: 50%; */
     position: relative;
-    left: -40px;
+    /* left: -40px; */
 }
 
 img {
